@@ -1,3 +1,4 @@
+[![Stories in Ready](https://badge.waffle.io/ninjames101/rockies-revued.png?label=ready&title=Ready)](https://waffle.io/ninjames101/rockies-revued?utm_source=badge)
 # rockies-revue
 
 > A Vue.js project
