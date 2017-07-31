@@ -52,6 +52,7 @@
                 <div>
                   <div class="headline">Probably</div>
                   <div>But Not Because Of The Rockies</div>
+                  <div> {{days}}</div>
                 </div>
               </v-flex>
               <v-flex xs2>
@@ -81,12 +82,23 @@
 
 
 <script>
+import moment from 'moment';
+
+
 export default {
   name: 'hello',
   data() {
     return {
       msg: 'Rockies landing',
     };
+  },
+  computed: {
+    days: () => {
+      const days = new Date();
+      // moment('01/12/2016', 'DD/MM/YYYY', true).format();
+      const cheese = moment(days).format('L');
+      console.log(cheese);
+    },
   },
 };
 </script>

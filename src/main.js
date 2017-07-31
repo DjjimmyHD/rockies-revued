@@ -2,10 +2,12 @@
 // (runtime-only or standalone) has been set in webpack.base.conf with an alias.
 import Vue from 'vue';
 import Vuetify from 'vuetify';
+import moment from 'moment';
 import 'vuetify/dist/vuetify.min.css';
 import App from './App';
 
 Vue.use(Vuetify);
+Vue.use(moment);
 Vue.config.productionTip = false;
 
 
