@@ -9,3 +9,5 @@
 - Started out this morning getting everything laid out for the Headers and Footers
 - There are some growing pains with vuetify but it is worth using to get through this. The code is ugly but it works and I can get it refactored again.
 - Going to push this to github and then work on getting the button and the display then hopefully making API call after lunch.
+- Ok The general Lay Out is done. I am going to push and send it up to GH
+- I have the button in and two of the displays I want to show based on the API call, looks god enough and now I can get the Javascript 
